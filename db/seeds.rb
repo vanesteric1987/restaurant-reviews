@@ -23,13 +23,13 @@ puts "Creating restaurants..."
   restaurant.save
 end
 
-puts "Creating reviews..."
-10.times do
-  review = Review.new(
-    context: Faker::Restaurant.review
-  )
-  review.save
-end
+# puts "Creating reviews..."
+# 10.times do
+#   review = Review.new(
+#     context: Faker::Restaurant.review
+#   )
+#   review.save
+# end
 puts 'Finished!'
 
 # dishoom = { name: "Dishoom", address: "7 Boundary St, London E2 7JE", stars: 5 }
